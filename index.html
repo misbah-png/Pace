@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Habit Tracker & Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Habit Tracker & Journal</h1>
+  </header>
+
+  <nav>
+    <button onclick="showSection('habits')">Habits</button>
+    <button onclick="showSection('journal')">Journal</button>
+    <button onclick="showSection('todo')">To-Do</button>
+  </nav>
+
+  <main>
+    <section id="habits">Habit tracker goes here</section>
+    <section id="journal" style="display:none;">Journal goes here</section>
+    <section id="todo" style="display:none;">To-do list goes here</section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
